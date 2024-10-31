@@ -1,6 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+/** @format */
+import { Button } from "@chakra-ui/react";
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
         >
           Learn React
         </a>
+        <Button colorScheme="teal" size="lg">
+          Chakra Button
+        </Button>
       </header>
     </div>
   );
